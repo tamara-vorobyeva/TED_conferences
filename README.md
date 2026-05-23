@@ -8,11 +8,10 @@ The client recently acquired a license to host official TED conferences and is c
 - **Quantify Audience Engagement**: Analyze behavior patterns across metrics such as views, applause volumes, and humor frequencies to pinpoint what resonates with viewers.
 
 - **Map Regional & Thematic Trends**: Evaluate geographical distributions and popular topic tags to guide localized programming and content strategy.
+- **Build interactive dashboard**: (Note: This is a no-code project built entirely using native DataLens Wizard charts, so no SQL scripts are required)
 
 ## 🔗 Quick Links
 * ▶ **[View Interactive Dashboard in Yandex DataLens](https://datalens.ru/gvj9ho0yb4tc0)** (No registration required)
-
-* 🛠 **View SQL Extraction & Analytical Scripts**: Hosted in the /src directory
 
 ---
 
