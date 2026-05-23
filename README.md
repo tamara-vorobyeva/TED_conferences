@@ -50,4 +50,3 @@ The client recently acquired a license to host official TED conferences and is c
 * README.md - Project overview, technical specifications, and executive summary (this file).
 
 * /data - Anonymized sample dataset (dataset_clean.csv) limited to 1,000 entries to allow native browser rendering on GitHub.
--
