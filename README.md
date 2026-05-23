@@ -1,47 +1,50 @@
-# 📊 Analysis of the the seasonal trends in the real estate market of St. Petersburg and the Leningrad region for the purpose of Marketing Optimization
+📊 Analysis of TED Talks Formats and Audience Engagement for Strategic Event Planning
+📌 Business Case Overview
+The client recently acquired a license to host official TED conferences and is currently in the planning stage of organizing their inaugural event. To ensure the launch captures the classic, memorable spirit of TED while maximizing audience engagement, the client requires a data-driven approach to select speakers, curate themes, and optimize event logistics. This analysis leverages historical data from 3,377 TED talks (1984–2021) to uncover the structural benchmarks of highly successful conferences.
 
-## 📌 Business Case Overview
-The client, a real-estate agency was considering entering St. Petersburg's market and needed reliable data to assess its prospects and plan market launch activities. 
+🎯 Project Objectives
+Define the Ideal Event Format: Identify typical conference characteristics, including optimal talk duration, speaker counts, and event frequency.
 
-## 🎯 Project Objectives 
-- Identify the market dynamics and deliver insights regarding periods with increased activity of sellers and buyers to leadership.📌 
-- Create interactive dashboard.📌 
+Quantify Audience Engagement: Analyze behavior patterns across metrics such as views, applause volumes, and humor frequencies to pinpoint what resonates with viewers.
 
-## 🔗 Quick Links
-* ▶ **[View Interactive Dashboard in Yandex DataLens](https://datalens.ru/gvj9ho0yb4tc0)** (No registration required)
-* 🛠 **[View SQL Data Cleaning & Analysis Script](src/data-cleansing-analysis)** 
+Map Regional & Thematic Trends: Evaluate geographical distributions and popular topic tags to guide localized programming and content strategy.
 
----
+🔗 Quick Links
+▶ View Interactive Dashboard: Available via BI Platform (Top-Down Hierarchical Layout)
 
-## 🛠 Tech Stack
-* **Database:** PostgreSQL (temporary tables, advanced Window Functions, CTEs, complex aggregations, segmentation, pivot).
-* **Data Processing:** PostgreSQL (DBeaver) — utilized for data deduplication and data anomalies filtration.
-* **BI Platform:** Yandex DataLens — leveraged for building the interactive dashboard and performing cohort analysis.
+🛠 View SQL Extraction & Analytical Scripts: Hosted in the /src directory
 
----
+🛠 Tech Stack
+Database: PostgreSQL (data-analyst-ted instance with events, speakers, and talks relational tables).
 
-## 🔍 Research Approach 
-* **Data Cleaning & Scope**: The study analyzed a cleaned 2015–2018 real estate dataset for St. Petersburg and Leningrad Oblast towns, filtering out extreme anomalies in area, price, and zero-duration listings to ensure consistency.
-* **Methodological Segmentation**: The analysis separated the data into specific temporary subsets to distinctly track listing publications (supply) and listing removals (completed sales) over time.
-* **Time Lag Integration**: The methodology explicitly incorporated a natural 1–2 month transaction lag, noting that listing removals heavily reflect purchasing decisions made in preceding months.  
+Data Processing: SQL (DBeaver) — utilized for complex table joins (LEFT JOIN to retain empty conferences), text field filtering, aggregation, and Top-N ranking.
 
----
+BI Platform: Tableau / Yandex DataLens — leveraged for building a top-down interactive dashboard equipped with global parameter filters and multi-field text search.
 
-## 💡 Key Findings
-*	**St. Petersburg Domination**: St. Petersburg heavily drives the regional market, exhibiting 1.7x higher square-meter prices and a financial volume in November that is 8 times larger than the entire Leningrad Oblast. 
-*	**Autumn Market Peak**: Autumn (September to November) serves as the ultimate peak season where buyer and seller activities align, contrasted by a sharp supply-demand mismatch in February and absolute market stagnation in May. 
-*	**Liquidity and Format Correlations**: Most listings close within 1–3 months or stretch beyond half a year, with transaction speeds heavily dictated by lower prices, smaller 1-room formats, and the presence of a balcony. 
+🔍 Research Approach
+Data Integration & Scope Analysis: Consolidated 3,377 historical records spanning 1984–2021 across three relational tables using precise primary/foreign key connections to ensure comprehensive data integrity.
 
----
+Top-Down Visualization Architecture: Structured the dashboard hierarchically, transitioning from high-level ecosystem metrics down to isolated conference aggregates, individual talk deep-dives, and granular row-level data.
 
-## 🚀 Strategic Recommendations
-*	**Core Focus & Timing**: Concentrate primary business operations within St. Petersburg and launch major marketing campaigns between late September and October to capture the peak annual demand. 
-*	**Target High-Liquidity Segment**: Build the core portfolio around 1–2 room apartments ranging between 45 and 65 sq.m. in St. Petersburg and highly accessible inner-city towns like Gatchina, Pushkin, and Pavlovsk. 
-*	**Cautious Premium Execution**: Enter the high-commission premium tier selectively, factoring in aggressive market competition and a 1.5x longer sales cycle (averaging 228 days compared to 155 days for budget properties). 
+Targeted SQL Query Segmentation: Designed custom SQL scripts to isolate high-performing segments, specifically extracting the Top 20 most frequent thematic tags and the Top 10 most acclaimed speakers based on aggregated audience reactions.
 
----
+💡 Key Findings
+Thematic Concentration: Audience interest heavily aggregates around specific topics, with a clear hierarchy established by the Top 20 most popular tags (e.g., specific domain clusters identified via text analysis).
 
-## 📁 Repository Structure
-* `README.md` — Project overview and executive summary (this file).
-* `/data` — Anonymized raw dataset.
-* `/src` — Source code folder containing SQL script (PostGreSQL).
+Quantifiable Engagement Drivers: Memorable performances leave distinct footprints, showing strong correlations between the frequency of localized humor (Top 10 funniest talks) and massive global visibility (maximum view counts).
+
+Speaker Profile Impact: Total audience appreciation—measured by cumulative applause counts—is strongly tied to the speaker's specific professional background (speaker_occupation), highlighting which industries command the most attention.
+
+🚀 Strategic Recommendations
+Optimize Event Scheduling: Structure the conference agenda around the historical baseline for audience retention by utilizing the calculated average talk duration (AVG(duration)) and keeping speaker volumes within proven comfort thresholds.
+
+Curate High-Engagement Content: Anchor the event’s core themes within the identified Top 20 popular tags, and actively incorporate engaging, lighthearted, or humorous elements to replicate the classic TED atmosphere.
+
+Target High-Impact Speaker Profiles: Prioritize recruiting speakers whose occupations and professional backgrounds align with the Top 10 profiles that historically generate the highest volumes of audience applause.
+
+📁 Repository Structure
+README.md — Project overview, technical specifications, and executive summary (this file).
+
+/data — Anonymized sample dataset (dataset_clean.csv) limited to 1,000 entries to allow native browser rendering on GitHub.
+
+/src — Production-ready SQL scripts detailing the data aggregation, cross-table joins, and ranking logic used for the dashboard charts.
