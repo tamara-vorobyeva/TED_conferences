@@ -44,7 +44,6 @@ The client recently acquired a license to host official TED conferences and is c
 * **Curate High-Engagement Content**: Anchor the event’s core themes within the identified Top 20 popular tags, and actively incorporate engaging, lighthearted, or humorous elements to replicate the classic TED atmosphere.
 
 * **Target High-Impact Speaker Profiles**: Prioritize recruiting speakers whose occupations and professional backgrounds align with the Top 10 profiles that historically generate the highest volumes of audience applause.
-
 ---
 
 ## 📁 Repository Structure
