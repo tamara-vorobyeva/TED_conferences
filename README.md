@@ -10,18 +10,18 @@ The client recently acquired a license to host official TED conferences and is c
 - Map Regional & Thematic Trends: Evaluate geographical distributions and popular topic tags to guide localized programming and content strategy.
 
 ## 🔗 Quick Links
-▶ View Interactive Dashboard: Available via BI Platform (Top-Down Hierarchical Layout)
+* ▶ View Interactive Dashboard: Available via BI Platform (Top-Down Hierarchical Layout)
 
-🛠 View SQL Extraction & Analytical Scripts: Hosted in the /src directory
+* 🛠 View SQL Extraction & Analytical Scripts: Hosted in the /src directory
 
 ## 🛠 Tech Stack
-Database: PostgreSQL (data-analyst-ted instance with events, speakers, and talks relational tables).
+* **Database**: PostgreSQL (data-analyst-ted instance with events, speakers, and talks relational tables).
 
-Data Processing: SQL (DBeaver) — utilized for complex table joins (LEFT JOIN to retain empty conferences), text field filtering, aggregation, and Top-N ranking.
+* **Data Processing**: SQL (DBeaver) — utilized for complex table joins (LEFT JOIN to retain empty conferences), text field filtering, aggregation, and Top-N ranking.
 
-BI Platform: Tableau / Yandex DataLens — leveraged for building a top-down interactive dashboard equipped with global parameter filters and multi-field text search.
+* **BI Platform**: Yandex DataLens — leveraged for building a top-down interactive dashboard equipped with global parameter filters and multi-field text search.
 
-## 🔍 Research Approach
+* ## 🔍 Research Approach
 Data Integration & Scope Analysis: Consolidated 3,377 historical records spanning 1984–2021 across three relational tables using precise primary/foreign key connections to ensure comprehensive data integrity.
 
 Top-Down Visualization Architecture: Structured the dashboard hierarchically, transitioning from high-level ecosystem metrics down to isolated conference aggregates, individual talk deep-dives, and granular row-level data.
