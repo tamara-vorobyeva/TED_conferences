@@ -3,16 +3,16 @@
 The client recently acquired a license to host official TED conferences and is currently in the planning stage of organizing their inaugural event. To ensure the launch captures the classic, memorable spirit of TED while maximizing audience engagement, the client requires a data-driven approach to select speakers, curate themes, and optimize event logistics. This analysis leverages historical data from 3,377 TED talks (1984–2021) to uncover the structural benchmarks of highly successful conferences.
 
 ## 🎯 Project Objectives
-- Define the ideal event format: Identify typical conference characteristics, including optimal talk duration, speaker counts, and event frequency.
+- **Define the ideal event format**: Identify typical conference characteristics, including optimal talk duration, speaker counts, and event frequency.
 
-- Quantify Audience Engagement: Analyze behavior patterns across metrics such as views, applause volumes, and humor frequencies to pinpoint what resonates with viewers.
+- **Quantify Audience Engagement**: Analyze behavior patterns across metrics such as views, applause volumes, and humor frequencies to pinpoint what resonates with viewers.
 
-- Map Regional & Thematic Trends: Evaluate geographical distributions and popular topic tags to guide localized programming and content strategy.
+- **Map Regional & Thematic Trends**: Evaluate geographical distributions and popular topic tags to guide localized programming and content strategy.
 
 ## 🔗 Quick Links
 * ▶ **[View Interactive Dashboard in Yandex DataLens](https://datalens.ru/gvj9ho0yb4tc0)** (No registration required)
 
-* 🛠 View SQL Extraction & Analytical Scripts: Hosted in the /src directory
+* 🛠 **View SQL Extraction & Analytical Scripts**: Hosted in the /src directory
 
 ---
 
