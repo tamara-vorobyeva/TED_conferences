@@ -10,7 +10,7 @@ The client recently acquired a license to host official TED conferences and is c
 - Map Regional & Thematic Trends: Evaluate geographical distributions and popular topic tags to guide localized programming and content strategy.
 
 ## 🔗 Quick Links
-* ▶ View Interactive Dashboard: Available via Yandex DataLens (https://datalens.ru/gvj9ho0yb4tc0)** (No registration required)
+* ▶ **[View Interactive Dashboard in Yandex DataLens](https://datalens.ru/gvj9ho0yb4tc0)** (No registration required)
 
 * 🛠 View SQL Extraction & Analytical Scripts: Hosted in the /src directory
 
