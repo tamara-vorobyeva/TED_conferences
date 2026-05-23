@@ -14,12 +14,16 @@ The client recently acquired a license to host official TED conferences and is c
 
 * 🛠 View SQL Extraction & Analytical Scripts: Hosted in the /src directory
 
+---
+
 ## 🛠 Tech Stack
 * **Database**: PostgreSQL (data-analyst-ted instance with events, speakers, and talks relational tables).
 
 * **Data Processing**: SQL (DBeaver) - utilized for complex table joins (LEFT JOIN to retain empty conferences), text field filtering, aggregation, and Top-N ranking.
 
 * **BI Platform**: Yandex DataLens - leveraged for building a top-down interactive dashboard equipped with global parameter filters and multi-field text search.
+
+---
 
  ## 🔍 Research Approach
 * **Data Integration & Scope Analysis**: Consolidated 3,377 historical records spanning 1984–2021 across three relational tables using precise primary/foreign key connections to ensure comprehensive data integrity.
@@ -28,6 +32,8 @@ The client recently acquired a license to host official TED conferences and is c
 
 * **Targeted SQL Query Segmentation**: Designed custom SQL scripts to isolate high-performing segments, specifically extracting the Top 20 most frequent thematic tags and the Top 10 most acclaimed speakers based on aggregated audience reactions.
 
+---
+
 ## 💡 Key Findings
 * **Thematic Concentration**: Audience interest heavily aggregates around specific topics, with a clear hierarchy established by the Top 20 most popular tags (e.g., specific domain clusters identified via text analysis).
 
@@ -35,12 +41,16 @@ The client recently acquired a license to host official TED conferences and is c
 
 * **Speaker Profile Impact**: Total audience appreciation—measured by cumulative applause counts—is strongly tied to the speaker's specific professional background (speaker_occupation), highlighting which industries command the most attention.
 
+---
+
 ## 🚀 Strategic Recommendations
 * **Optimize Event Scheduling**: Structure the conference agenda around the historical baseline for audience retention by utilizing the calculated average talk duration (AVG(duration)) and keeping speaker volumes within proven comfort thresholds.
 
 * **Curate High-Engagement Content**: Anchor the event’s core themes within the identified Top 20 popular tags, and actively incorporate engaging, lighthearted, or humorous elements to replicate the classic TED atmosphere.
 
 * **Target High-Impact Speaker Profiles**: Prioritize recruiting speakers whose occupations and professional backgrounds align with the Top 10 profiles that historically generate the highest volumes of audience applause.
+
+---
 
 ## 📁 Repository Structure
 * README.md — Project overview, technical specifications, and executive summary (this file).
