@@ -57,4 +57,4 @@ The client recently acquired a license to host official TED conferences and is c
 
 * /data — Anonymized sample dataset (dataset_clean.csv) limited to 1,000 entries to allow native browser rendering on GitHub.
 
-/src — Production-ready SQL scripts detailing the data aggregation, cross-table joins, and ranking logic used for the dashboard charts.
+* /src — Production-ready SQL scripts detailing the data aggregation, cross-table joins, and ranking logic used for the dashboard charts.
