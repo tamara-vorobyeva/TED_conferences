@@ -11,7 +11,7 @@ The client recently acquired a license to host official TED conferences and is c
 - **Build interactive dashboard**: (Note: This is a no-code project built entirely using native DataLens Wizard charts, so no SQL scripts are required)
 
 ## 🔗 Quick Links
-* ▶ **[View Interactive Dashboard in Yandex DataLens](https://datalens.yandex/wb1xupoaaaycg)** (No registration required)
+* ▶ **[View Interactive Dashboard in Yandex DataLens - leveraged for building the interactive dashboard using native drag-and-drop Wizard charts (no-code visualization approach)](https://datalens.yandex/wb1xupoaaaycg)** (No registration required)
 
 ---
 
@@ -51,3 +51,4 @@ The client recently acquired a license to host official TED conferences and is c
 * README.md - Project overview, technical specifications, and executive summary (this file).
 
 * /data - Anonymized sample dataset (dataset_clean.csv) limited to 1,000 entries to allow native browser rendering on GitHub.
+-
