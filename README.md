@@ -11,7 +11,7 @@ The client recently acquired a license to host official TED conferences and is c
 - **Build interactive dashboard**: (Note: This is a no-code project built entirely using native DataLens Wizard charts, so no SQL scripts are required)
 
 ## 🔗 Quick Links
-* ▶ **[View Interactive Dashboard in Yandex DataLens - leveraged for building the interactive dashboard using native drag-and-drop Wizard charts (no-code visualization approach)](https://datalens.yandex/wb1xupoaaaycg)** (No registration required)
+* ▶ **[View Interactive Dashboard in Yandex DataLens (no-code visualization approach via Wizard-charts was applied)](https://datalens.yandex/wb1xupoaaaycg)** (No registration required)
 
 ---
 
@@ -21,7 +21,7 @@ The project is built on top of 3 interconnected relational tables:
 events ('conf_id' [primary key], 'event_name', 'country')
 speakers ('author_id' [primary key], 'speaker_name', 'speaker_occupation', 'speaker_description')
 talks ('talk_id' [primary key], 'title', 'duration', 'views_count', 'main_tag', 'speaker_id' [FK], 'event_id' [FK])
-* **Yandex DataLens** — leveraged for building a top-down interactive dashboard using native drag-and-drop Wizard charts for complex table joins (LEFT JOIN to retain empty conferences), text field filtering, aggregation, and Top-N ranking and equipped with global parameter filters and multi-field text search (no-code visualization approach).
+* **Yandex DataLens** — leveraged for building a top-down interactive dashboard using native drag-and-drop Wizard charts for complex table joins (LEFT JOIN to retain empty conferences), text field filtering, aggregation, and Top-N ranking and equipped with global parameter filters and multi-field text search.
 
 ---
 
