@@ -16,6 +16,11 @@ The client recently acquired a license to host official TED conferences and is c
 ---
 
 ## 🛠 Tech Stack
+* **Relational Data Schema**
+The project is built on top of 3 interconnected relational tables:
+events ('conf_id' [primary key], 'event_name', 'country')
+speakers ('author_id' [primary key], 'speaker_name', 'speaker_occupation', 'speaker_description')
+talks ('talk_id' [primary key], 'title', 'duration', 'views_count', 'main_tag', 'speaker_id' [FK], 'event_id' [FK])
 * **Yandex DataLens** — leveraged for building a top-down interactive dashboard using native drag-and-drop Wizard charts for complex table joins (LEFT JOIN to retain empty conferences), text field filtering, aggregation, and Top-N ranking and equipped with global parameter filters and multi-field text search (no-code visualization approach).
 
 ---
