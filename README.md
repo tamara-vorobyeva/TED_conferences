@@ -49,4 +49,4 @@ The client recently acquired a license to host official TED conferences and is c
 ## 📁 Repository Structure
 * README.md - Project overview, technical specifications, and executive summary (this file).
 
-* /data - Cleaned sample dataset extracted from the database for project demonstration limited to 1,000 entries to allow native browser rendering on GitHub.
+* /data - A consolidated analytical dataset (joined from 'events', 'speakers', and 'talks' source tables) extracted from the database for project demonstration limited to 500 entries.
